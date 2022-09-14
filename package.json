@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "name": "dsa-with-kunal",
+  "version": "1.0.0",
+  "description": "DSA Assignments",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harsh-developer/DSA-with-Kunal.git"
+  },
+  "author": "Harsh Developer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harsh-developer/DSA-with-Kunal/issues"
+  },
+  "homepage": "https://github.com/harsh-developer/DSA-with-Kunal#readme"
+}
