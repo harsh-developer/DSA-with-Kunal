@@ -5,6 +5,15 @@ function firstAndLastPosition(nums, target){
     ans[0] = start;
     ans[1] = end;
     return ans;
+
+    /** we can do one more thing
+     * ans[0] = binarySearch(nums, target, true)
+     * here we are checking if ans[0] != 1 then and only then check for ans[1] otherwise return [-1, -1]
+     * if(ans[0] != -1){
+     *      ans[1] = binarySearch(nums, target, false)
+     * }
+     * return ans;
+     */
 }
 
 function binarySearch(nums, target, findStartIndex){
