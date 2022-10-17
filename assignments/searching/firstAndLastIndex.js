@@ -29,7 +29,7 @@ function binarySearch(nums, target, findStartIndex){
             start = mid + 1
         }
         else{
-            // possible answer id found
+            // possible answer is found
             ans = mid;
             if(findStartIndex){
                 end = mid - 1;
